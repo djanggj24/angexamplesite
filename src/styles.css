@@ -1,1 +1,81 @@
 /* You can add global styles to this file, and also import other style files */
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=textarea], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+  
+ 
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #3cc247;
+    padding: 20px;
+  }
+  img{
+    width:5%;
+    height:5%;
+    margin: 8px 0;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    background-size:cover;
+    border-radius: 1px;
+   
+    
+  }
+html, body { height: 100%; width: 100%;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: lightblue;}
+
+ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(240, 245, 222);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(90, 58, 204);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgb(185, 47, 47);
+}
+.active {
+  background-color: #4CAF50;
+}
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
